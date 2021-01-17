@@ -16,8 +16,11 @@ After some analysis, the school board discovered academic dishonesty amongst 9th
 The district's average scores and percentage passing reading and math were decreased. The average math score decreased by 0.1%. Average reading score changed very little. The percentage passing math and reading decreased by 0.2% and 0.1% respectively. The overall passing rate decreased from 65.2% to 64.9%.  
 
 Original
+
 ![](Resources/District_summary_df_orig.png)
+
 New
+
 ![](Resources/District_summary_df_new.png)
 
 * How is the school summary affected?
@@ -25,8 +28,11 @@ New
 
 
 Original
+
 ![](Resources/school_summary_orig.png)
+
 New
+
 ![](Resources/school_summary_new.png)
 
 
@@ -38,32 +44,45 @@ New
     - Scores by school spending
     
      Original
+     
      ![](Resources/spending_summary_orig.png)
+     
      New
+     
      ![](Resources/spending_summary_new.png)
     
     - Scores by school size
-    
+     
+     
      Original
+     
      ![](Resources/size_summary_orig.png)
+     
      New
+     
      ![](Resources/size_summary_new.png)
     
     
     - Scores by school type
     
+     
      Original
+     
      ![](Resources/type_summary_orig.png)  
+     
      New
+     
      ![](Resources/type_summary_new.png)
 
 
 ## Summary
 
-1. In the district summary, the overall passing percentage dropped from 65.2% to 64.9%. This is a major change that could impact the district's funding, since 65% could be a cutoff point. 
+1. In the district summary, the overall passing percentage dropped from 65.2% to 64.9%. This is a major change that could impact the district's funding, since 65% could be a cutoff point.
+
 2. In the data analysis, the number of students in the analysis went down by 461. 
+
 3. 
 
-
+4. 
 
 [Click here to take a deeper look at the analyst's Jupyter Notebook.](https://github.com/r3ginam/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
