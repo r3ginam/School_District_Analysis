@@ -7,7 +7,7 @@ After some analysis, the school board discovered academic dishonesty amongst 9th
 
 
 ## Resources
-- Data Sources: [clean_students_complete.csv](../Resources/clean_students_complete.csv), [schools_complete.csv](../Resources/schools_complete.csv)
+- Data Sources: [clean_students_complete.csv](https://github.com/r3ginam/School_District_Analysis/blob/main/Resources/clean_students_complete.csv), [schools_complete.csv](../Resources/schools_complete.csv)
 - Software: Python 3.9.1, Jupyter Notebook 6.0.3
 
 
@@ -15,4 +15,4 @@ After some analysis, the school board discovered academic dishonesty amongst 9th
 
 ## Summary
 
-[Click here to take a deeper look at the analyst's notebook.](../PyCitySchools_Challenge.ipynb)
+[Click here to take a deeper look at the analyst's notebook.](https://github.com/r3ginam/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
