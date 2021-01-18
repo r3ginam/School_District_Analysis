@@ -37,12 +37,13 @@ New
 
 
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-  It does not change THS's ranking amongst other schools. Thomas is still the second highest performing school when compared based on the percent of students passing math and reading. 
+
+  - It does not change THS's ranking amongst other schools. Thomas is still the second highest performing school when compared based on the percent of students passing math and reading. 
 
 * How does replacing the ninth-grade scores affect the following:
     
     - Scores by school spending
-    
+        When rounded to the nearest ones or tenths place, the school spending dataframe shows no change. 
      Original
      
      ![](Resources/spending_summary_orig.png)
@@ -52,7 +53,7 @@ New
      ![](Resources/spending_summary_new.png)
     
     - Scores by school size
-     
+     The scores by school size show very little difference between the new dataframe and the original dataframe. When formatted to round to the nearest tenths or ones place, the data looks identical. However, the medium bin is actually affected by a maximum of 0.07%. 
      
      Original
      
@@ -64,7 +65,7 @@ New
     
     
     - Scores by school type
-    
+    In general, charter schools outperformed district schools. Thomas is a charter school so the average scores for charter schools showed a decrease in the data frame. However, due to rounding, there is not a major change shown in the dataframe. 
      
      Original
      
@@ -79,10 +80,10 @@ New
 
 1. In the district summary, the overall passing percentage dropped from 65.2% to 64.9%. This is a major change that could impact the district's funding, since 65% could be a cutoff point.
 
-2. In the data analysis, the number of students in the analysis went down by 461. 
+2. The number of students used to analyze the data went down by 461 students, the number of 9th graders at Thomas High School.
 
-3. 
+3. Null (NaN) values replaced the 461 students' reading and math scores. This change in the data altered the outcomes for the entire district and lowered Thomas High School's overall percentage of passing students by about 0.3%.
 
-4. 
+4. The percentage passing math in the original dataframe was 75.0%, while the new percentage passing math is 74.8%. This is a major change because 75% could be a cutoff point to recieve state funding and district ratings.
 
 [Click here to take a deeper look at the analyst's Jupyter Notebook.](https://github.com/r3ginam/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
